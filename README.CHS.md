@@ -10,8 +10,6 @@
 
 ## 截图
 
----
-
 ![rulia](/images/chs-01.jpg)
 ![rulia](/images/chs-02.jpg)
 ![rulia](/images/chs-03.jpg)

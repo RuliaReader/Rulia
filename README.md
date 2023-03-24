@@ -12,8 +12,6 @@ Get it from Microsoft Store:
 
 ## Screenshots
 
----
-
 ![rulia](/images/en-01.jpg)
 ![rulia](/images/en-02.jpg)
 ![rulia](/images/en-03.jpg)
