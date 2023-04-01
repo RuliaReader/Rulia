@@ -2,7 +2,7 @@
 
 [中文](README.CHS.md)
 
-A simple and practical offline manga reader for Windows.
+A simple and practical offline manga reader.
 
 Get it from Microsoft Store:
 
@@ -10,16 +10,16 @@ Get it from Microsoft Store:
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="250" />
 </a>
 
+## Feedback
+
+If you have any question or suggestion, feel free to leave an issue.
+
 ## Screenshots
 
 ![rulia](/images/en-01.jpg)
 ![rulia](/images/en-02.jpg)
 ![rulia](/images/en-03.jpg)
 ![rulia](/images/en-04.jpg)
-
-## Feedback
-
-If you have any question or suggestion, feel free to leave an issue.
 
 ## Copyright
 
