@@ -4,7 +4,7 @@
 
 从 Microsoft Store 获取:
 
-<a href="https://apps.microsoft.com/store/detail/9MVVLRZWRXX8?launch=true&mode=mini">
+<a href="https://apps.microsoft.com/store/detail/9MVVLRZWRXX8?cid=github&launch=true&mode=mini">
   <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" width="250" />
 </a>
 

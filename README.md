@@ -6,7 +6,7 @@ A simple and practical offline manga reader for Windows.
 
 Get it from Microsoft Store:
 
-<a href="https://apps.microsoft.com/store/detail/9MVVLRZWRXX8?launch=true&mode=mini">
+<a href="https://apps.microsoft.com/store/detail/9MVVLRZWRXX8?cid=github&launch=true&mode=mini">
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="250" />
 </a>
 
