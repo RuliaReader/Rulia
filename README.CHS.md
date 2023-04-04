@@ -1,4 +1,6 @@
-# Rulia - 漫画阅读器
+[中文](README.CHS.md) | [English](README.md)
+
+# Rulia - 现代化设计的本地漫画阅读器.
 
 简单实用的本地漫画阅读器.
 
@@ -10,7 +12,12 @@
 
 ## 反馈
 
-如果您有任何意见和反馈，请直接开个 issus.
+如果您有任何问题，请直接开一个 issus 即可😃
+
+## 社区
+
+ - 群号: 623730051
+ - [https://discord.gg/kewQHAQU4A](https://discord.gg/kewQHAQU4A)
 
 ## 截图
 

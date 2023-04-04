@@ -1,6 +1,6 @@
-# Rulia - Manga Reader
+[中文](README.CHS.md) | [English](README.md)
 
-[中文](README.CHS.md)
+# Rulia - A modernized manga reader for Windows.
 
 A simple and practical offline manga reader.
 
@@ -12,7 +12,12 @@ Get it from Microsoft Store:
 
 ## Feedback
 
-If you have any question or suggestion, feel free to leave an issue.
+If you have any question or suggestion, feel free to leave an issue 😃
+
+## Community
+
+ - [https://discord.gg/kewQHAQU4A](https://discord.gg/kewQHAQU4A)
+ - QQ Group: 623730051 (Mainly for Chinese users)
 
 ## Screenshots
 
