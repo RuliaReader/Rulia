@@ -10,6 +10,15 @@
   <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" width="250" />
 </a>
 
+## 亮点
+
+ - 拥有多种阅读模式来应对复杂的情况
+ - 拥有去除摩尔纹现象的图片降噪
+ - 直接读取加密压缩包
+ - 为触摸操作优化
+ - 使用 Surface Pen 和 Dial 进行远程翻页
+ - 现代化的界面设计
+
 ## 反馈
 
 如果您有任何问题，请直接开一个 issus 即可😃

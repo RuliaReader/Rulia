@@ -10,6 +10,15 @@ Get it from Microsoft Store:
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="250" />
 </a>
 
+## Highlights
+
+ - Multiple reading modes to handle complex situations
+ - Image denoising to remove the Moiré effect
+ - Directly reads encrypted compressed files
+ - Optimized for touch operations
+ - Paging by using the Surface Pen and Dial
+ - Modernized user interface
+
 ## Feedback
 
 If you have any question or suggestion, feel free to leave an issue 😃
