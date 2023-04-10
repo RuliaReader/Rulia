@@ -14,6 +14,10 @@ Get it from Microsoft Store:
 
 If you have any question or suggestion, feel free to leave an issue 😃
 
+## Roadmap
+
+You can check the ongoing tasks in the issues or projects page of this repository.
+
 ## Community
 
  - [https://discord.gg/kewQHAQU4A](https://discord.gg/kewQHAQU4A)
