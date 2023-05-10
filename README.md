@@ -1,8 +1,8 @@
-[中文](README.CHS.md) | [English](README.md)
+[中文](README.CHS.md) | [English](README.md) | [日本語](README.JPN.md)
 
 # Rulia - A modernized manga reader for Windows.
 
-A simple and practical offline manga reader.
+A manga reader which gives you different feeling.
 
 Get it from Microsoft Store:
 
@@ -13,7 +13,8 @@ Get it from Microsoft Store:
 ## Highlights
 
  - Multiple reading modes to handle complex situations
- - Image denoising to remove the Moiré effect
+ - Remove the Moiré effect from images
+ - Blank area trimming
  - Directly reads encrypted compressed files
  - Optimized for touch operations
  - Paging by using the Surface Pen and Dial

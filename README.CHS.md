@@ -1,8 +1,8 @@
-[中文](README.CHS.md) | [English](README.md)
+[中文](README.CHS.md) | [English](README.md) | [日本語](README.JPN.md)
 
 # Rulia - 现代化设计的本地漫画阅读器.
 
-简单实用的本地漫画阅读器.
+为你带来不同感受的漫画阅读器.
 
 从 Microsoft Store 获取:
 
@@ -10,10 +10,11 @@
   <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" width="250" />
 </a>
 
-## 亮点
+## 功能
 
  - 拥有多种阅读模式来应对复杂的情况
- - 拥有去除摩尔纹现象的图片降噪
+ - 去除图片中的摩尔纹噪声
+ - 裁剪图片周围的空白区域
  - 直接读取加密压缩包
  - 为触摸操作优化
  - 使用 Surface Pen 和 Dial 进行远程翻页
