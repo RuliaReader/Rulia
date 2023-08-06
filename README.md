@@ -28,6 +28,10 @@ If you have any question or suggestion, feel free to leave an issue 😃
 
 You can check the ongoing tasks in the issues or projects page of this repository.
 
+## Changelog
+
+You can read changelog [here](https://github.com/LancerComet/RuliaReader/blob/master/CHANGELOG.md).
+
 ## Community
 
  - [https://discord.gg/kewQHAQU4A](https://discord.gg/kewQHAQU4A)
