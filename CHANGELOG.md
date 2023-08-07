@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.8.1
+ - Fix: No images were retrieved when reading some epubs that do contain images. [#48](https://github.com/LancerComet/RuliaReader/issues/48)
+
 ## 0.8.0
  - New: EPub support. [#22](https://github.com/LancerComet/RuliaReader/issues/22) (This feature is in early stage.)
  - New: Ability to save images. [#39](https://github.com/LancerComet/RuliaReader/issues/39)
