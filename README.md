@@ -1,4 +1,4 @@
-[中文](README.CHS.md) | [English](README.md) | [日本語](README.JPN.md)
+[简体中文](README.CHS.md) | [正體中文](README.CHT.md) | [English](README.md) | [日本語](README.JPN.md)
 
 # Rulia - A modernized manga reader for Windows.
 
@@ -12,6 +12,7 @@ Get it from Microsoft Store:
 
 ## Highlights
 
+ - Support mutliple formats, such as cbr/cbz/zip/rar/7z/pdf/epub
  - Multiple reading modes to handle complex situations
  - Remove the Moiré effect from images
  - Blank area trimming

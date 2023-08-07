@@ -1,4 +1,4 @@
-[中文](README.CHS.md) | [English](README.md) | [日本語](README.JPN.md)
+[简体中文](README.CHS.md) | [正體中文](README.CHT.md) | [English](README.md) | [日本語](README.JPN.md)
 
 # Rulia - Windowsのモダンなマンガリーダー
 
@@ -12,12 +12,13 @@ Microsoft Storeからダウンロード：
 
 ## 特徴
 
+ - 対応可能な一般的なファイル形式：cbr/cbz/zip/rar/7z/pdf/epub
  - 複雑な状況を扱うための複数の読み取りモード
  - 画像からMoire効果を除去
  - 空白エリアのトリミング
  - 直接暗号化された圧縮ファイルを読み取ることができる
  - タッチ操作に最適化
- - Surface PenとDialを使用してページング
+ - Surface Pen と Dial を使用してページング
  - モダンなユーザーインターフェース
 
 ## フィードバック
@@ -27,6 +28,10 @@ Microsoft Storeからダウンロード：
 ## ロードマップ
 
 このリポジトリのIssuesまたはProjectsページで進行中のタスクを確認できます。
+
+## 変更履歴
+
+変更履歴は[ここ](https://github.com/LancerComet/RuliaReader/blob/master/CHANGELOG.md)で読むことができます。
 
 ## コミュニティ
 

@@ -1,4 +1,4 @@
-[中文](README.CHS.md) | [English](README.md) | [日本語](README.JPN.md)
+[简体中文](README.CHS.md) | [正體中文](README.CHT.md) | [English](README.md) | [日本語](README.JPN.md)
 
 # Rulia - 现代化设计的本地漫画阅读器.
 
@@ -11,13 +11,14 @@
 </a>
 
 ## 功能
-
+ 
+ - 支持常见文件格式，如 cbr/cbz/zip/rar/7z/pdf/epub
  - 拥有多种阅读模式来应对复杂的情况
  - 去除图片中的摩尔纹噪声
  - 裁剪图片周围的空白区域
  - 直接读取加密压缩包
  - 为触摸操作优化
- - 使用 Surface Pen 和 Dial 进行远程翻页
+ - 使用 Surface Pen 和 Dial 进行翻页
  - 现代化的界面设计
 
 ## 反馈
@@ -28,10 +29,14 @@
 
 您可以从本项目的 issues 或者 projects 中查看当前正在进行的项目.
 
-## 社区
+## 更新日志
 
- - 群号: 623730051
+你可以在[这里](https://github.com/LancerComet/RuliaReader/blob/master/CHANGELOG.md)阅读更新日志。
+
+## 社群
+
  - [https://discord.gg/kewQHAQU4A](https://discord.gg/kewQHAQU4A)
+ - 群号: 623730051（主要面向中国用户）
 
 ## 截图
 
