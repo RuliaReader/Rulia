@@ -12,7 +12,7 @@ Microsoft Storeからダウンロード：
 
 ## 特徴
 
- - 対応可能な一般的なファイル形式：cbr/cbz/zip/rar/7z/pdf/epub
+ - 対応可能な一般的なファイル形式：cbr/cbz/zip/rar/7z/pdf/epub/mobi
  - 複雑な状況を扱うための複数の読み取りモード
  - 画像からMoire効果を除去
  - 空白エリアのトリミング

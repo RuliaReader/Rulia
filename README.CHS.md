@@ -12,7 +12,7 @@
 
 ## 功能
  
- - 支持常见文件格式，如 cbr/cbz/zip/rar/7z/pdf/epub
+ - 支持常见文件格式：cbr/cbz/zip/rar/7z/pdf/epub/mobi
  - 拥有多种阅读模式来应对复杂的情况
  - 去除图片中的摩尔纹噪声
  - 裁剪图片周围的空白区域
