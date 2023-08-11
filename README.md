@@ -12,7 +12,7 @@ Get it from Microsoft Store:
 
 ## Highlights
 
- - Support mutliple formats, such as cbr/cbz/zip/rar/7z/pdf/epub
+ - Support mutliple formats, such as cbr/cbz/zip/rar/7z/pdf/epub/mobi
  - Multiple reading modes to handle complex situations
  - Remove the Moiré effect from images
  - Blank area trimming
