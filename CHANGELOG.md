@@ -2,7 +2,7 @@
 
 ## 0.9.0
  - New: Mobi format support. [#22](https://github.com/LancerComet/RuliaReader/issues/22) (Get more information about mobi from this link)
- - New: You can specific starting page. [#49](https://github.com/LancerComet/RuliaReader/issues/49)
+ - New: You can specify starting page. [#49](https://github.com/LancerComet/RuliaReader/issues/49)
  - Update: Optimize dialog popping up code in reader page. [#50](https://github.com/LancerComet/RuliaReader/issues/50)
  - Fix: Wrong I18n text for unknown exception in reader page. [#51](https://github.com/LancerComet/RuliaReader/issues/51)
 
