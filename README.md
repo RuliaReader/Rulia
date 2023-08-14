@@ -27,7 +27,7 @@ If you have any question or suggestion, feel free to leave an issue 😃
 
 ## Roadmap
 
-You can check the ongoing tasks in the issues or projects page of this repository.
+You can check the ongoing tasks in the [issue](https://github.com/LancerComet/RuliaReader/issues) or [projects](https://github.com/LancerComet/RuliaReader/projects) page of this repository.
 
 ## Changelog
 
