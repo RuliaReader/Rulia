@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0
+ - New: Subdirectories access support in bookshelf. You can enable it in setting page. [#37](https://github.com/LancerComet/RuliaReader/issues/37)
+ - New: Ability to follow system theme. [#40](https://github.com/LancerComet/RuliaReader/issues/40)
+ - Update: Include file extension in the text of continue button in bookshelf folder page. [#53](https://github.com/LancerComet/RuliaReader/issues/53)
+ - Update: Update layout of the setting page. [#54](https://github.com/LancerComet/RuliaReader/issues/54)
+
 ## 0.9.0
  - New: Mobi format support. [#22](https://github.com/LancerComet/RuliaReader/issues/22) (Get more information about mobi from this link)
  - New: You can specify starting page. [#49](https://github.com/LancerComet/RuliaReader/issues/49)
