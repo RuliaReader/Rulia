@@ -18,6 +18,7 @@ Get it from Microsoft Store:
  - Trims blank areas in images
  - Opens encrypted archives and remembers passwords
  - Features a modern user interface optimized for touch
+ - Create multiple profiles to store different manga
  - Allows paging with the Surface Pen and Dial
 
 ## Feedback
