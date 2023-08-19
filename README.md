@@ -12,14 +12,13 @@ Get it from Microsoft Store:
 
 ## Highlights
 
- - Support mutliple formats, such as cbr/cbz/zip/rar/7z/pdf/epub/mobi
- - Multiple reading modes to handle complex situations
- - Remove the Moiré effect from images
- - Blank area trimming
- - Directly reads encrypted compressed files
- - Optimized for touch operations
- - Paging by using the Surface Pen and Dial
- - Modernized user interface
+ - Supports multiple formats: cbr, cbz, zip, rar, 7z, pdf, epub, mobi
+ - Offers multiple reading modes for diverse needs
+ - Removes the Moiré effect from images
+ - Trims blank areas in images
+ - Opens encrypted archives and remembers passwords
+ - Features a modern user interface optimized for touch
+ - Allows paging with the Surface Pen and Dial
 
 ## Feedback
 
