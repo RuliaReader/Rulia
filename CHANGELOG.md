@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.10.1
+ - Fix: An issue in bookshelf where subdirectories cannot be accessed in some cases. [#55](https://github.com/LancerComet/RuliaReader/issues/55)
+
 ## 0.10.0
  - New: Subdirectories access support in bookshelf. You can enable it in setting page. [#37](https://github.com/LancerComet/RuliaReader/issues/37)
  - New: Ability to follow system theme. [#40](https://github.com/LancerComet/RuliaReader/issues/40)
