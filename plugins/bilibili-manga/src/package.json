@@ -1,0 +1,9 @@
+{
+  "name": "@rulia/bilibili-manga",
+  "title": "Bilibili Manga",
+  "description": "The bilibili manga plugin.",
+  "version": "1.0.0",
+  "author": "LancerComet",
+  "tags": ["Bilibili", "Manga"],
+  "homepage": "https://github.com/LancerComet/RuliaReader"
+}
