@@ -178,7 +178,7 @@ async function getMangaData (dataPageUrl: string) {
 
     const episodeList = response.data.ep_list
       .slice()
-      .filter(item => item.is_locked !== true)
+      .filter(item => !item.is_locked)
 
     episodeList.sort((a, b) => a.ord - b.ord)
 

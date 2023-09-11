@@ -1,8 +1,8 @@
 # Rulia Plugin
 
-This project contains some plugin source code for the Rulia.
+This directory contains some plugin source code for Rulia.
 
-For more information about the Rulia plugin, please read https://github.com/LancerComet/RuliaReader/issues/58.
+For more information about Rulia plugin, please read https://github.com/LancerComet/RuliaReader/issues/58.
 
 ## File structure
 
@@ -13,22 +13,25 @@ A plugin consists of these files:
   |- index.js      # Plugin source code.
   |- package.json  # Plugin meta information.
   |- icon.jpg      # Icon image.
+  |- README.md     # A markdown file that is used to be a help document.
 ```
 
-But you will see some plugins are written in TypeScript. It is no matter how you organize your source code, you just have to bundle them into a single `index.js` file.
+But you will see some plugins are written in TypeScript. It is no matter how you organize your source code, just bundle them into a single `index.js` file.
 
-Just check out example plugins in this repo and see what's going on here. You just need to prepare four functions for every single plugin, very simple.
+Check out source code in this repo and see what's going on here. You just need to prepare four functions for every single plugin, very simple.
+
+> The cover file can be a jpg/jpeg/jfif/png/webp/gif file.
 
 ## Build
 
-For some TypeScript coded plugins in this repo, you have to transpile it into JavaScript, which is pretty easy:
+For some TypeScript coded plugins in this repo, you have to transpile TypeScript into JavaScript, which is pretty easy:
 
 ```bash
 npm install    # Install dependencies.
 npm run build  # Build. Done.
 ```
 
-When it is finished, there will be a `index.js` under source code folder. This is the file that will be distributed to users.
+When finished, there will be a `index.js` under source code folder. This is the file that we need to distribute to users.
 
 ## Packing
 

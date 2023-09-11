@@ -33,7 +33,7 @@ interface Window {
     appToast: (message: string) => void
 
     /**
-     * Make an http request.
+     * Make a http request.
      *
      * @example
      * // 1. Make a get request.
@@ -129,6 +129,10 @@ interface Window {
   }
 }
 
+/**
+ * This is the data type that you need to pass to Rulia
+ * in function "getMangaList".
+ */
 interface IGetMangaListResult {
   list: {
     title: string
@@ -138,6 +142,10 @@ interface IGetMangaListResult {
   totalPage?: number
 }
 
+/**
+ * This is the data type that you need to pass to Rulia
+ * in function "getMangaData".
+ */
 interface IGetMangaDataResult {
   title: string
   description: string
@@ -146,4 +154,12 @@ interface IGetMangaDataResult {
     title: string
     url: string
   }[]
+
+  /**
+   * There will be a continue button if you provide this information.
+   */
+  lastReadChapter?: {
+    title: string
+    url: string
+  }
 }

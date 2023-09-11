@@ -1,0 +1,10 @@
+{
+  "name": "my-simple-plugin",
+  "version": "1.0.0",
+  "description": "My simple plugin.",
+  "private": true,
+  "author": {
+    "name": "A genius",
+    "email": "genius_on_earth@thats.me"
+  }
+}
