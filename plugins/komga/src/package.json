@@ -1,0 +1,15 @@
+{
+  "name": "@rulia/komga",
+  "title": "Komga",
+  "description": "Komga plugin for Rulia.",
+  "version": "1.0.0",
+  "author": "LancerComet",
+  "tags": ["Komga"],
+  "homepage": "https://github.com/LancerComet/RuliaReader",
+  "userConfig": {
+    "baseUrl": {
+      "displayName": "Base URL",
+      "description": "Please provide the base URL of your Komga server, like: http://192.168.0.100:25600"
+    }
+  }
+}

@@ -108,7 +108,7 @@ interface Window {
 
       /**
        * Request data.
-       * It only accetps string, you have to serialize it yourself.
+       * It only accepts string, you have to serialize it yourself.
        * Check the example above to see how to do this.
        */
       payload?: string
@@ -178,4 +178,3 @@ interface IRuliaChapterImage {
   width: number
   height: number
 }
-

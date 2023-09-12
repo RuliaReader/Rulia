@@ -40,12 +40,6 @@ interface IGetImageIndexResponse {
   host: string
 }
 
-interface IRuliaChapterImage {
-  url: string
-  width: number
-  height: number
-}
-
 async function getMangaListByCategory (page: number, pageSize: number) {
   const url = 'https://manga.bilibili.com/twirp/comic.v1.Comic/ClassPage?device=pc&platform=web'
   try {

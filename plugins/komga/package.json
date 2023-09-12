@@ -1,7 +1,7 @@
 {
-  "name": "@rulia/bilibili-manga",
+  "name": "@rulia/komga",
   "version": "1.0.0",
-  "description": "The Bilibili Manga plugin for Rulia.",
+  "description": "The Komga plugin for Rulia.",
   "private": true,
   "scripts": {
     "build": "tsc"
