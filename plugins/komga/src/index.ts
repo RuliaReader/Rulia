@@ -1,7 +1,7 @@
-import type { KomgaSeriesListResponse } from './types/series-list'
 import type { KomgaBooksResponse } from './types/book'
-import type { KomgaSeriesResponse } from './types/series'
 import type { KomgaBookImage } from './types/book-image'
+import type { KomgaSeriesResponse } from './types/series'
+import type { KomgaSeriesListResponse } from './types/series-list'
 
 async function getMangaList (page: string, pageSize: string, keyword?: string) {
   const userConfig = window.Rulia.getUserConfig()
@@ -63,19 +63,19 @@ async function getMangaData (metadata: string) {
   try {
     const query = new URLSearchParams()
     query.append('library_id', libraryId)
-    query.append('sort', 'metadata.numberSort%2Casc')
+    query.append('sort', 'metadata.numberSor,asc')
     query.append('unpaged', 'true')
 
     const rawResponse = await window.Rulia.httpRequest({
       url: `${baseUrl}/api/v1/books`,
       method: 'GET',
-      payload: query.toString(),
+      payload: query.toString()
     })
 
     const response = JSON.parse(rawResponse) as KomgaBooksResponse
     result.chapterList = response.content.map(item => ({
       title: item.name,
-      url: item.id  // BookId.
+      url: item.id // BookId.
     }))
   } catch (error) {
     return window.Rulia.endWithException((error as Error).message)
@@ -122,6 +122,6 @@ async function getChapterImageList (bookId: string) {
   }
 }
 
-async function getImageUrl (url: string) {
-  return url
+function getImageUrl (url: string) {
+  window.Rulia.endWithResult(url)
 }
