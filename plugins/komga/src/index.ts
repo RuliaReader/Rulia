@@ -47,7 +47,7 @@ async function getMangaData (metadata: string) {
     return window.Rulia.endWithException('Please provide baseUrl in plugin config')
   }
 
-  const { seriesId, libraryId } = JSON.parse(metadata) as {
+  const { seriesId } = JSON.parse(metadata) as {
     seriesId: string
     libraryId: string
   }
@@ -62,12 +62,11 @@ async function getMangaData (metadata: string) {
   // Get chapter list.
   try {
     const query = new URLSearchParams()
-    query.append('library_id', libraryId)
-    query.append('sort', 'metadata.numberSor,asc')
+    query.append('sort', 'metadata.numberSort,asc')
     query.append('unpaged', 'true')
 
     const rawResponse = await window.Rulia.httpRequest({
-      url: `${baseUrl}/api/v1/books`,
+      url: `${baseUrl}/api/v1/series/${seriesId}/books`,
       method: 'GET',
       payload: query.toString()
     })
