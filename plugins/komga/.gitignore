@@ -1,4 +1,4 @@
 .idea/
 .vscode/
 node_modules/
-**/*/index.js
+src/**/*.js

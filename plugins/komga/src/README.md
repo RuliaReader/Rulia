@@ -1,7 +1,7 @@
-# Komga plugin
+# Komga Plugin
 
-![icon](icon.jpg)
+This is the plugin for self-hosted manga server Komga.
 
-This is the Komga plugin for Rulia app.
+If you have any question, please visit here:
 
-Still under heavy construction.
+https://github.com/LancerComet/RuliaReader/tree/master/plugins/komga
