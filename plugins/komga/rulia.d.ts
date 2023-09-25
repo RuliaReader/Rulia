@@ -145,7 +145,6 @@ interface IGetMangaListResult {
     url: string
     coverUrl: string
   }[]
-  totalPage?: number
 }
 
 /**

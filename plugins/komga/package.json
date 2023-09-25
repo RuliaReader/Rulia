@@ -4,7 +4,7 @@
   "description": "The Komga plugin for Rulia.",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "node build.js"
   },
   "author": {
     "name": "LancerComet",
@@ -14,6 +14,7 @@
     "@lancercomet/eslint-config-eslint-rules": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
+    "archiver": "^6.0.1",
     "eslint": "^8.48.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-config-standard-with-typescript": "^39.0.0",

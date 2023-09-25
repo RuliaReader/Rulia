@@ -14,6 +14,9 @@ async function getMangaList (page: string, pageSize: string, keyword?: string) {
     const query = new URLSearchParams()
     query.append('page', (parseInt(page) - 1).toString())
     query.append('size', pageSize)
+    if (keyword) {
+      query.append('search', keyword)
+    }
 
     const rawResponse = await window.Rulia.httpRequest({
       url: `${baseUrl}/api/v1/series`,

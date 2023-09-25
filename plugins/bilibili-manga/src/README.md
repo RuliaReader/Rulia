@@ -1,7 +1,5 @@
 # Bilibili Manga Plugin
 
-![icon](icon.jpg)
-
 用于阅读[哔哩哔哩漫画](https://manga.bilibili.com)的 Rulia 插件.
 
 ## 说明
