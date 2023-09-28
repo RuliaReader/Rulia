@@ -12,7 +12,10 @@
     "strict": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": [
+      "../../packages/types"
+    ]
   },
   "exclude": ["node_modules"]
 }
