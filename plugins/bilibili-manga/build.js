@@ -5,7 +5,7 @@ const fs = require('fs')
 const path = require('path')
 const archiver = require('archiver')
 
-const ARCHIVE_FILE_NAME = 'package.zip'
+const ARCHIVE_FILE_NAME = 'bilibili-manga.zip'
 
 main().catch(error => {
   console.error(`Error in main function: ${error}`)
@@ -36,9 +36,13 @@ async function main () {
   }
 
   // Step 2: Copy files
-  const filesToCopy = ['icon.jpg', 'package.json', 'README.md']
-  for (const file of filesToCopy) {
-    fs.copyFileSync(`src/${file}`, `dist/${file}`)
+  const filesToCopy = [
+    ['src/icon.jpg', 'dist/icon.jpg'],
+    ['src/package.json', 'dist/package.json'],
+    ['README.md', 'dist/README.md']
+  ]
+  for (const [src, dist] of filesToCopy) {
+    fs.copyFileSync(src, dist)
   }
   console.log('Files copied.')
 

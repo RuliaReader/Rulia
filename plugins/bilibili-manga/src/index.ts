@@ -31,30 +31,90 @@ interface IMangaSeason {
   }[]
 }
 
-interface IGetImageIndexResponse {
-  images: {
-    path: string
-    x: number
-    y: number
-  }[]
-  host: string
-}
+type MangaListFilterOptions = Array<{
+  label: string,
+  name: string | number,
+  options: Array<{ label: string, value: string }>
+}>
 
-async function getMangaListByCategory (page: number, pageSize: number) {
-  const url = 'https://manga.bilibili.com/twirp/comic.v1.Comic/ClassPage?device=pc&platform=web'
+/**
+ * This function will be invoked in manga list page.
+ * The returned data will be used as the filter options for the manga list.
+ */
+async function setMangaListFilterOptions () {
+  const url = 'https://manga.bilibili.com/twirp/comic.v1.Comic/AllLabel?device=pc&platform=web'
+
   try {
+    const result: MangaListFilterOptions = [
+      { label: '题材', name: 'styles', options: [{ label: '全部', value: '-1' }] },
+      { label: '地区', name: 'areas', options: [{ label: '全部', value: '-1' }] },
+      { label: '进度', name: 'status', options: [{ label: '全部', value: '-1' }] },
+      { label: '收费', name: 'prices', options: [{ label: '全部', value: '-1' }] },
+      { label: '排序', name: 'orders', options: [] }
+    ]
+
     const rawResponse = await window.Rulia.httpRequest({
       url,
       method: 'POST',
-      payload: JSON.stringify({
-        style_id: -1,
-        area_id: 2,
-        is_finish: -1,
-        order: 3,
-        page_num: page,
-        page_size: pageSize,
-        is_free: -1
-      }),
+      contentType: 'application/json'
+    })
+
+    const response = JSON.parse(rawResponse) as IBilibiliApi<Record<string, { id: number, name: string }[]>>
+
+    if (response.code !== 0) {
+      throw new Error('SERVER_RESPONSE_CODE_' + response.code)
+    }
+
+    Object.keys(response.data).forEach(key => {
+      const filterOption = result.find(item => item.name === key)
+      if (filterOption) {
+        const newOptions = (response.data?.[key] ?? []).map(item => ({
+          label: item.name,
+          value: item.id.toString()
+        }))
+        filterOption.options.push(...newOptions)
+      }
+    })
+
+    window.Rulia.endWithResult(result)
+  } catch (error) {
+    window.Rulia.endWithResult([])
+  }
+}
+
+async function getMangaListByCategory (page: number, pageSize: number, filterOptions: Record<string, string>) {
+  const url = 'https://manga.bilibili.com/twirp/comic.v1.Comic/ClassPage?device=pc&platform=web'
+  try {
+    const payload = {
+      style_id: -1,
+      area_id: 2,
+      is_finish: -1,
+      order: 3,
+      page_num: page,
+      page_size: pageSize,
+      is_free: -1
+    }
+
+    if (filterOptions.styles) {
+      payload.style_id = parseInt(filterOptions.styles)
+    }
+    if (filterOptions.areas) {
+      payload.area_id = parseInt(filterOptions.areas)
+    }
+    if (filterOptions.status) {
+      payload.is_finish = parseInt(filterOptions.status)
+    }
+    if (filterOptions.prices) {
+      payload.is_free = parseInt(filterOptions.prices)
+    }
+    if (filterOptions.orders) {
+      payload.order = parseInt(filterOptions.orders)
+    }
+
+    const rawResponse = await window.Rulia.httpRequest({
+      url,
+      method: 'POST',
+      payload: JSON.stringify(payload),
       contentType: 'application/json'
     })
 
@@ -118,9 +178,10 @@ async function getMangaListBySearching (page: number, pageSize: number, keyword:
  * @param {string} page Page number. Please notice this arg will be passed from Rulia in string type.
  * @param {string} pageSize Page size. Please notice this arg will be passed from Rulia in string type.
  * @param {string} keyword The search keyword. It will empty when user doesn't provide it.
+ * @param {string} rawFilterOptions The filter options.
  * @returns
  */
-async function getMangaList (page: string, pageSize: string, keyword?: string) {
+async function getMangaList (page: string, pageSize: string, keyword?: string, rawFilterOptions?: string) {
   const pageNum = parseInt(page)
   const pageSizeNum = parseInt(pageSize)
 
@@ -130,7 +191,15 @@ async function getMangaList (page: string, pageSize: string, keyword?: string) {
     return await getMangaListBySearching(pageNum, pageSizeNum, keyword)
   }
 
-  return await getMangaListByCategory(pageNum, pageSizeNum)
+  let filterOptions: Record<string, string> = {}
+  if (rawFilterOptions) {
+    try {
+      filterOptions = JSON.parse(rawFilterOptions)
+    } catch (error) {
+      filterOptions = {}
+    }
+  }
+  return await getMangaListByCategory(pageNum, pageSizeNum, filterOptions)
 }
 
 /**
@@ -217,7 +286,15 @@ async function getChapterImageList (chapterUrl: string) {
       }),
       contentType: 'application/json'
     })
-    const response = await JSON.parse(rawResponse) as IBilibiliApi<IGetImageIndexResponse>
+    const response = await JSON.parse(rawResponse) as IBilibiliApi<{
+      images: {
+        path: string
+        x: number
+        y: number
+      }[]
+      host: string
+    }>
+
     if (response.code !== 0) {
       throw new Error('SERVER_RESPONSE_CODE_' + response.code)
     }
