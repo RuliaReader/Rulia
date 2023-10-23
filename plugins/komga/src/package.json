@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "LancerComet",
   "tags": ["Komga"],
-  "homepage": "https://github.com/LancerComet/RuliaReader",
+  "homepage": "https://github.com/LancerComet/RuliaReader/tree/master/plugins/komga",
   "userConfig": {
     "baseUrl": {
       "displayName": "Base URL",
