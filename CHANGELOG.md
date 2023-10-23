@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.11.0
+ - New: Plugin system. [#58](https://github.com/LancerComet/RuliaReader/issues/58)
+ - New: Reading History page. [#60](https://github.com/LancerComet/RuliaReader/issues/60)
+ - Update: Auto refresh bookshelf after certain options changed. [#59](https://github.com/LancerComet/RuliaReader/issues/59)
+ - Update: Optimize task cancellation in folder page for better performance. [#61](https://github.com/LancerComet/RuliaReader/issues/61)
+ - Update: Optimize folder page loading speed. [#62](https://github.com/LancerComet/RuliaReader/issues/62)
+ - Update: Optimize gamepad control in bookshelf page. [#63](https://github.com/LancerComet/RuliaReader/issues/63)
+ - Fix: Include subdirectory count in the displayed number for each bookshelf item. [#56](https://github.com/LancerComet/RuliaReader/issues/56)
+ - Fix: Incorrect image order from solid rar files. [#66](https://github.com/LancerComet/RuliaReader/issues/66)
+
 ## 0.10.1
  - Fix: An issue in bookshelf where subdirectories cannot be accessed in some cases. [#55](https://github.com/LancerComet/RuliaReader/issues/55)
 

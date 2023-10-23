@@ -5,7 +5,7 @@ const fs = require('fs')
 const path = require('path')
 const archiver = require('archiver')
 
-const ARCHIVE_FILE_NAME = 'package.zip'
+const ARCHIVE_FILE_NAME = 'komga.zip'
 
 main().catch(error => {
   console.error(`Error in main function: ${error}`)

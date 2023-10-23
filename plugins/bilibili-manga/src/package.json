@@ -2,7 +2,7 @@
   "name": "@rulia/bilibili-manga",
   "title": "Bilibili Manga",
   "description": "哔哩哔哩漫画插件.",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "LancerComet",
   "tags": ["Bilibili", "Manga"],
   "homepage": "https://github.com/LancerComet/RuliaReader"
