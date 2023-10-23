@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["DOM", "ES5", "ES2015", "ES2016", "ES2017", "ES2018"],
+    "useDefineForClassFields": true,
+    "moduleDetection": "auto",
+    "module": "commonjs",
+    "removeComments": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": [
+      "../../packages/types"
+    ]
+  },
+  "exclude": ["node_modules"]
+}
