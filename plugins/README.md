@@ -4,7 +4,9 @@ Plugins provide other ways to read comics in Rulia. If you are interested in it,
 
 ## Plugin usage
 
-Only a few plugins are available at this time. Feel free to give them a shot.
+Only few plugins available at this time. 
+
+Feel free to give them a shot. Just download the plugin files from the **Release** section on the right side of the webpage.
 
  - [Bilibili Manga](https://github.com/RuliaReader/plugin.bilibili-manga): Read manga directly from [Bilibili Manga](https://manga.bilibili.com).
  - [Komga](https://github.com/RuliaReader/plugin.komga): Read comics from your [Komga](https://komga.org/) server.
