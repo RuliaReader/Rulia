@@ -20,7 +20,7 @@ Get it from Microsoft Store:
  - Features a modern user interface optimized for touch
  - Create multiple profiles to store different manga
  - Allows paging with the Surface Pen and Dial
- - Plugin system
+ - [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin)
 
 ## Feedback
 
