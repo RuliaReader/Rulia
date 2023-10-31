@@ -23,3 +23,7 @@ If you would like to develop a plugin, please read [this](https://github.com/Lan
 ### Example
 
 Check out the example plugin under `example/` directory.
+
+## Notice
+
+Rulia is not responsible for plugins. Plugins and their content are not provided by Rulia directly.
