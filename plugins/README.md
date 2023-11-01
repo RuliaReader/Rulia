@@ -11,6 +11,7 @@ Feel free to give them a shot. Just download the plugin files from the **Release
  - [Bilibili Manga](https://github.com/RuliaReader/plugin.bilibili-manga): Read manga directly from [Bilibili Manga](https://manga.bilibili.com).
  - [Copy Manga](https://github.com/RuliaReader/plugin.CopyManga): A plugin for reading [拷贝漫画](https://www.mangacopy.com/).
  - [Komga](https://github.com/RuliaReader/plugin.komga): Read comics from your [Komga](https://komga.org/) server.
+ - [Kuaikan Manga](https://github.com/shiluo34/plugin.kuaikan-manga): Read comics directly from [Kuaikan](https://www.kuaikanmanhua.com/).
 
 > You are welcomed to add more plugins to this list.
 
@@ -24,6 +25,6 @@ If you would like to develop a plugin, please read [this](https://github.com/Lan
 
 Check out the example plugin under `example/` directory.
 
-## Notice
+## Declaration
 
-Rulia is not responsible for plugins. Plugins and their content are not provided by Rulia directly.
+Rulia is not responsible for plugins. Plugins and their content are not provided by Rulia.
