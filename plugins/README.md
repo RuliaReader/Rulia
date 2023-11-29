@@ -10,6 +10,7 @@ Feel free to give them a shot. Just download the plugin files from the **Release
 
  - [Bilibili Manga](https://github.com/RuliaReader/plugin.bilibili-manga): Read manga directly from [Bilibili Manga](https://manga.bilibili.com).
  - [Copy Manga](https://github.com/RuliaReader/plugin.CopyManga): A plugin for reading [拷贝漫画](https://www.mangacopy.com/).
+ - [DMZJ](https://github.com/RuliaReader/plugin.dmzj): A plugin for reading [DMZJ](https://www.idmzj.com/).
  - [Komga](https://github.com/RuliaReader/plugin.komga): Read comics from your [Komga](https://komga.org/) server.
  - [Kuaikan Manga](https://github.com/shiluo34/plugin.kuaikan-manga): Read comics directly from [Kuaikan](https://www.kuaikanmanhua.com/).
  - [MangaDex](https://github.com/RuliaReader/plugin.MangaDex): A plugin for [MangaDex](https://mangadex.org).
