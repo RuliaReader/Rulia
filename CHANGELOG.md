@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.14.0
+ - New: Ability to hide extension display in bookshelf. [#65](https://github.com/RuliaReader/Rulia/issues/65)
+
+## 0.13.1
+ - Fix: The bug introduced in the previous version that caused a decrease in performance when reading mobi files. [#90](https://github.com/RuliaReader/Rulia/issues/90)
+
+## 0.13.0
+ - New: Thumbnail caching. [#19](https://github.com/RuliaReader/Rulia/issues/19)
+ - New: Add avif support. [#81](https://github.com/RuliaReader/Rulia/issues/81)
+ - Update: File dropping & directories dropping are available to the free version now. [#82](https://github.com/RuliaReader/Rulia/issues/82)
+ - Update: Drop the support of solid archive files. **This is a breaking change**, please read: [#83](https://github.com/RuliaReader/Rulia/issues/83)
+ - Update: Refactor the IO module to improve the loading speed. [#84](https://github.com/RuliaReader/Rulia/issues/84)
+ - Update: Remove the filemeta building context menu from the bookshelf. [#85](https://github.com/RuliaReader/Rulia/issues/85)
+
 ## 0.12.0
  - Update: Update bookshelf alias editing. [#76](https://github.com/RuliaReader/Rulia/issues/76)
  - Update: Read cover from first file by default if there is no specific cover file. [#77](https://github.com/RuliaReader/Rulia/issues/77)
