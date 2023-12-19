@@ -13,6 +13,7 @@
 ## 功能
 
  - 支援常見檔案格式：cbr/cbz/zip/rar/7z/pdf/epub/mobi
+ - 支援常見圖片檔案，包含 WebP 和 [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
  - 提供多種閱讀模式，應對各種情況
  - 清除圖片中的摩爾紋干擾
  - 自動裁切圖片周邊的空白區域
