@@ -1,7 +1,12 @@
 # Changelog
 
 ## 0.14.0
- - New: Ability to hide extension display in bookshelf. [#65](https://github.com/RuliaReader/Rulia/issues/65)
+ - New: Add ability to hide extension display in bookshelf. [#65](https://github.com/RuliaReader/Rulia/issues/65)
+ - New: Display the background for app title bar when cursor entered it. [#88](https://github.com/RuliaReader/Rulia/issues/88)
+ - New: Display cover for sub directories in bookshelf. [#92](https://github.com/RuliaReader/Rulia/issues/92)
+ - New: Add ability to mix the sorting of files and directories of file list in Bookshelf. [#93](https://github.com/RuliaReader/Rulia/issues/93)
+ - New: Image Super Resolution. [#95](https://github.com/RuliaReader/Rulia/issues/95)
+ - Update: Escape pod (ALT+Q) is now included as part of the free features. [#96](https://github.com/RuliaReader/Rulia/issues/96)
 
 ## 0.13.1
  - Fix: The bug introduced in the previous version that caused a decrease in performance when reading mobi files. [#90](https://github.com/RuliaReader/Rulia/issues/90)
