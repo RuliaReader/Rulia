@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.15.0
+ - New: Http request timeout / LocalStorage / SessionStorage for plugins. [#71](https://github.com/RuliaReader/Rulia/issues/71)
+ - New: Image Rotation. [#101](https://github.com/RuliaReader/Rulia/issues/101)
+ - New: Add black background color for reader page. [#102](https://github.com/RuliaReader/Rulia/issues/102)
+ - Update: Update the layout of the misc setting panle of the reader. [#104](https://github.com/RuliaReader/Rulia/issues/104)
+
 ## 0.14.0
  - New: Add ability to hide extension display in bookshelf. [#65](https://github.com/RuliaReader/Rulia/issues/65)
  - New: Display the background for app title bar when cursor entered it. [#88](https://github.com/RuliaReader/Rulia/issues/88)
