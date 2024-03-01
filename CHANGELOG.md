@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.17.0
+ - New: Books from plugin can be added to the bookshelf. [#107](https://github.com/RuliaReader/Rulia/issues/107)
+ - New: Add ability to set custom http headers in plugins. [#109](https://github.com/RuliaReader/Rulia/issues/109)
+ - New: Shotcut for adding http basic authentication in plugin setting panel. [#110](https://github.com/RuliaReader/Rulia/issues/110)
+ - New: Add a continue reading button to the plugin manga detail page. [#112](https://github.com/RuliaReader/Rulia/issues/112)
+ - New: Double click scaling. [#114](https://github.com/RuliaReader/Rulia/issues/114)
+ - Update: Add app version detection for plugin. [#108](https://github.com/RuliaReader/Rulia/issues/108)
+ - Update: Complete i18n for plugin pages. [#111](https://github.com/RuliaReader/Rulia/issues/111)
+ - Update: Continue button displays the last read plugin manga. [#113](https://github.com/RuliaReader/Rulia/issues/113)
+
+## 0.16.0
+ - New: Added a panel that allows navigation between different folders within the same archive. [#105](https://github.com/RuliaReader/Rulia/issues/105)
+ - Update: Minor optimization for XBox devices. [#106](https://github.com/RuliaReader/Rulia/issues/106)
+
 ## 0.15.0
  - New: Http request timeout / LocalStorage / SessionStorage for plugins. [#71](https://github.com/RuliaReader/Rulia/issues/71)
  - New: Image Rotation. [#101](https://github.com/RuliaReader/Rulia/issues/101)
