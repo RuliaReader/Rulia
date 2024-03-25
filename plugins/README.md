@@ -8,6 +8,7 @@ Only few plugins available at this time.
 
 Feel free to give them a shot. Just download the plugin files from the **Release** section on the right side of the webpage.
 
+ - [Bato](https://github.com/RuliaReader/plugin.bato): [Bato](https://bato.to) manga plugin.
  - [Bilibili Manga](https://github.com/RuliaReader/plugin.bilibili-manga): Read manga directly from [Bilibili Manga](https://manga.bilibili.com).
  - [Copy Manga](https://github.com/RuliaReader/plugin.CopyManga): A plugin for reading [拷贝漫画](https://www.mangacopy.com/).
  - [DMZJ](https://github.com/RuliaReader/plugin.dmzj): A plugin for reading [DMZJ](https://www.idmzj.com/).
