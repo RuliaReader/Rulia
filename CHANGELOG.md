@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.18.0
+ - New: Last read sort option in bookshelf. [#116](https://github.com/RuliaReader/Rulia/issues/116)
+ - New: Hotkeys for image rotation. [#117](https://github.com/RuliaReader/Rulia/issues/117)
+ - New: Add ability for plugins to get saved cookies from Rulia. [#133](https://github.com/RuliaReader/Rulia/issues/133)
+ - New: Add ability for plugins to get http response headers. [#135](https://github.com/RuliaReader/Rulia/issues/135)
+ - New: Add ability for plugins to get sync reading history. [#137](https://github.com/RuliaReader/Rulia/issues/137)
+ - Update: Thumbnail cache images should be JPEG. [#123](https://github.com/RuliaReader/Rulia/issues/123)
+ - Update: Plugin manga list page no longer reloads after navigating back/forward. [#126](https://github.com/RuliaReader/Rulia/issues/126)
+ - Update: Try to fix a performance issue when moving scaled-up images for some users. [#127](https://github.com/RuliaReader/Rulia/issues/127)
+ - Update: Make sure manga images will be saved with the extension. [#128](https://github.com/RuliaReader/Rulia/issues/128)
+ - Fix: Fix an issue where plugin typed bookshelf items stuck the UI when network is slow. [#136](https://github.com/RuliaReader/Rulia/issues/136)
+
 ## 0.17.0
  - New: Books from plugin can be added to the bookshelf. [#107](https://github.com/RuliaReader/Rulia/issues/107)
  - New: Add ability to set custom http headers in plugins. [#109](https://github.com/RuliaReader/Rulia/issues/109)
