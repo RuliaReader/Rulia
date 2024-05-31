@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.19.0
+ - New: You can specify the reading mode for each bookshelf item. [#30](https://github.com/RuliaReader/Rulia/issues/30)
+ - Fix: Try to fix an issue where the app crashes on XBox devices. [#142](https://github.com/RuliaReader/Rulia/issues/142)
+ - Fix: Corectlly deal with the UrlEncoded filenames from some Epub files. [#146](https://github.com/RuliaReader/Rulia/issues/146)
+ - Fix: The battery indicator isn't updating. [#148](https://github.com/RuliaReader/Rulia/issues/148)
+
 ## 0.18.0
  - New: Last read sort option in bookshelf. [#116](https://github.com/RuliaReader/Rulia/issues/116)
  - New: Hotkeys for image rotation. [#117](https://github.com/RuliaReader/Rulia/issues/117)
