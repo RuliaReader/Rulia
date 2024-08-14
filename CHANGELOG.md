@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.1
+ - New: Press ESC to exit fullscreen mode. [#165](https://github.com/RuliaReader/Rulia/issues/165)
+ - New: You can select multiple items on the bookshelf page.[#168](https://github.com/RuliaReader/Rulia/issues/168)
+ - Fix: Encrypted 7z loading issue. [#159](https://github.com/RuliaReader/Rulia/issues/159)
+ - Update: Embed a PDF decoder as the fallback in case of failure of the WinRT one. [#161](https://github.com/RuliaReader/Rulia/issues/161)
+ - Update: Now you can drag and drop files and directories anywhere in the app. [#164](https://github.com/RuliaReader/Rulia/issues/164)
+ - Update: Resolve the issue of lag when loading items on the bookshelf page. [#166](https://github.com/RuliaReader/Rulia/issues/166)
+
 ## 0.19.0
  - New: You can specify the reading mode for each bookshelf item. [#30](https://github.com/RuliaReader/Rulia/issues/30)
  - Fix: Try to fix an issue where the app crashes on XBox devices. [#142](https://github.com/RuliaReader/Rulia/issues/142)
