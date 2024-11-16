@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.20.0
+ - Update: Make sub directories access free. [#167](https://github.com/RuliaReader/Rulia/issues/167)
+ - Update: Update PDF related dependencies.
+ - Update: Optimize folder page task cancellation. [#175](https://github.com/RuliaReader/Rulia/issues/175)
+ - Update: Update plugin module.
+
 ## 0.19.1
  - New: Press ESC to exit fullscreen mode. [#165](https://github.com/RuliaReader/Rulia/issues/165)
  - New: You can select multiple items on the bookshelf page.[#168](https://github.com/RuliaReader/Rulia/issues/168)
