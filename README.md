@@ -26,7 +26,7 @@ Get it from Microsoft Store:
 
 ## Documents
 
-Please visit [here](https://github.com/RuliaReader/Rulia/wiki/FAQ) for the documentation.
+Please visit [here](https://github.com/RuliaReader/Rulia/wiki) for the documentation.
 
 ## Feedback
 
