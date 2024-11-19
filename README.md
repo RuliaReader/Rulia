@@ -24,6 +24,10 @@ Get it from Microsoft Store:
  - Allows paging with the Surface Pen and Dial
  - Includes a [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
 
+## Documents
+
+Please visit [here](https://github.com/RuliaReader/Rulia/wiki/FAQ) for the documentation.
+
 ## Feedback
 
 If you have any question or suggestion, feel free to leave an issue 😃
