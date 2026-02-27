@@ -2,9 +2,9 @@
 
 # Rulia - A modernized manga reader for Windows.
 
-A manga reader which gives you different feeling.
+A manga reader designed for a superior reading experience.
 
-Get it from Microsoft Store:
+Get it from the Microsoft Store:
 
 <a href="https://apps.microsoft.com/store/detail/9MVVLRZWRXX8?cid=github&launch=true&mode=mini">
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="250" />
@@ -15,13 +15,13 @@ Get it from Microsoft Store:
  - Supports common formats: CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI
  - Supports various image formats, including WebP and [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
  - Offers multiple reading modes to suit diverse needs
- - Removes the Moiré effect from images
- - Provides blank area trimming for manga images
- - Utilizes [super-resolution](https://github.com/RuliaReader/Rulia/wiki/Super%E2%80%90resolution-for-manga-images) to repair and enlarge small-sized images
- - Opens encrypted archives and remembers passwords
+ - Removes Moiré patterns from images
+ - Automatically trims blank borders from manga images
+ - Utilizes [super-resolution](https://github.com/RuliaReader/Rulia/wiki/Super%E2%80%90resolution-for-manga-images) to upscale and enhance low-resolution images
+ - Supports opening encrypted archives and remembers passwords
  - Features a modern user interface optimized for touch
- - Create multiple profiles to store different manga collections
- - Allows paging with the Surface Pen and Dial
+ - Creates multiple profiles to organize different manga collections
+ - Supports page turning with Surface Pen and Surface Dial
  - Includes a [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
 
 ## Documents
