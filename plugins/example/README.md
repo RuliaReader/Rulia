@@ -1,3 +1,3 @@
 # Example plugin
 
-This is a very simple plugin. People can read this document in Rulia app.
+This is a simple plugin. People can see this line in Rulia App.
