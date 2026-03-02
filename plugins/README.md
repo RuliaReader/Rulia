@@ -1,12 +1,10 @@
 # Rulia Plugin
 
-Plugins provide other ways to read comics in Rulia. If you are interested in it, please keep reading.
+Plugins a provide external way to read comics.
 
 ## Plugin usage
 
-Only few plugins available at this time. 
-
-Feel free to give them a shot. Just download the plugin files from the **Release** section on the right side of the webpage.
+Feel free to give them a shot. Just download the plugin files from the **Release** section on the right side of the webpage then install them into Rulia.
 
  - <del>[Bato](https://github.com/RuliaReader/plugin.bato): [Bato](https://bato.to) manga plugin.</del> RIP bato.
  - <del>[Bilibili Manga](https://github.com/RuliaReader/plugin.bilibili-manga): Read manga directly from [Bilibili Manga](https://manga.bilibili.com).</del> This plugin is no longer functional and is no longer maintained.
@@ -19,6 +17,7 @@ Feel free to give them a shot. Just download the plugin files from the **Release
  - [Komga](https://github.com/RuliaReader/plugin.komga): Read comics from your [Komga](https://komga.org/) server.
  - [Kuaikan Manga](https://github.com/shiluo34/plugin.kuaikan-manga): Read comics directly from [Kuaikan](https://www.kuaikanmanhua.com/).
  - [MangaDex](https://github.com/RuliaReader/plugin.MangaDex): A plugin for [MangaDex](https://mangadex.org).
+ - [Zaimanhua](https://github.com/RuliaReader/plugin.ZaiManHua): Zaimanhua Plugin.
 
 ## Plugin Development
 
