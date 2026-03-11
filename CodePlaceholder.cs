@@ -1,5 +1,4 @@
 namespace RuliaReader;
 
-internal class Placeholder
-{
+internal class Placeholder {
 }
