@@ -27,8 +27,8 @@ If you would like to develop a plugin, please read [this](https://github.com/Lan
 
 ### Example
 
-Check out the example plugin under `example/` directory.
+Check out the example plugin [here](https://github.com/RuliaReader/plugin.example).
 
 ## Declaration
 
-Rulia is not responsible for plugins. Plugins and their content are not provided by Rulia.
+Rulia is not responsible for plugins. Plugins and contents are not provided by Rulia.
