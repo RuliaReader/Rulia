@@ -12,7 +12,7 @@ Microsoft Storeから入手：
 
 ## 特徴
 
- - 一般的なファイル形式に対応：CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI
+ - 一般的なファイル形式に対応：CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
  - WebPや[AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)を含む様々な画像形式に対応
  - 多様なニーズに対応する複数の閲覧モード
  - 画像のモアレ（干渉縞）を除去

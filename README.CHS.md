@@ -12,7 +12,7 @@
 
 ## 功能
  
- - 支持常见文件格式：CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI
+ - 支持常见文件格式：CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
  - 支持常见图片格式，包括 WebP 与 [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
  - 提供多种阅读模式，适应不同阅读场景
  - 去除图片中的摩尔纹噪声

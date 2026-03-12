@@ -12,7 +12,7 @@ Get it from the Microsoft Store:
 
 ## Highlights
 
- - Supports common formats: CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI
+ - Supports common formats: CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
  - Supports various image formats, including WebP and [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
  - Offers multiple reading modes to suit diverse needs
  - Removes Moiré patterns from images
