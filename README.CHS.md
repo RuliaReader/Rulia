@@ -14,7 +14,7 @@
  
  - 支持常见文件格式：CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
  - 支持常见图片格式，包括 WebP 与 [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
- - 提供三种阅读模式：翻动模式（像相册）、无限模式（横向或纵向滚动）、书本模式（仿真翻书）
+ - 提供三种阅读模式：翻动模式（像相册）、无限模式（横向或纵向滚动）、[书本模式](https://github.com/RuliaReader/Rulia/issues/214)（仿真翻书）
  - 去除图片中的摩尔纹噪声
  - 自动裁剪图片边缘的空白区域
  - 利用[超分辨率技术](https://github.com/RuliaReader/Rulia/wiki/Super%E2%80%90resolution-for-manga-images)修复并放大低分辨率图片
