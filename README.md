@@ -14,7 +14,7 @@ Get it from the Microsoft Store:
 
  - Supports common formats: CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
  - Supports various image formats, including WebP and [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
- - Offers multiple reading modes to suit diverse needs
+ - Offers 3 reading modes for diverse needs: Horizon (Flip), Infinity (Scroll), BookReader (real-book-like)
  - Removes Moiré patterns from images
  - Automatically trims blank borders from manga images
  - Utilizes [super-resolution](https://github.com/RuliaReader/Rulia/wiki/Super%E2%80%90resolution-for-manga-images) to upscale and enhance low-resolution images
@@ -22,6 +22,8 @@ Get it from the Microsoft Store:
  - Features a modern user interface optimized for touch
  - Creates multiple profiles to organize different manga collections
  - Supports page turning with Surface Pen and Surface Dial
+ - Zoom at will: Magnify a specific image or the entire view.
+ - [Command Palette](https://github.com/RuliaReader/Rulia/issues/239) 
  - Includes a [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
 
 ## Documents
