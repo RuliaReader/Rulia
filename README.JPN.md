@@ -25,6 +25,7 @@ Microsoft Storeから入手：
  - 自由にズーム：特定の画像または全体ビューを拡大 
  - [コマンドパレット](https://github.com/RuliaReader/Rulia/issues/239)
  - 機能拡張のための[プラグインシステム](https://github.com/RuliaReader/Rulia/wiki/Plugin-system)
+ - [AI 翻訳](https://github.com/RuliaReader/Rulia/wiki/AI-Translation)
 
 ## フィードバック
 

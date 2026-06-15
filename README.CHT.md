@@ -25,6 +25,7 @@
  - 自由縮放：放大特定圖片或整體視圖
  - [命令面板](https://github.com/RuliaReader/Rulia/issues/239) 
  - 支援[插件系統](https://github.com/RuliaReader/Rulia/wiki/Plugin-system)以擴充功能
+ - [AI 翻譯](https://github.com/RuliaReader/Rulia/wiki/AI-Translation)
 
 ## 回饋
 

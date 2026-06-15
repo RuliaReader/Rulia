@@ -24,7 +24,8 @@ Get it from the Microsoft Store:
  - Supports page turning with Surface Pen and Surface Dial
  - Zoom at will: Magnify a specific image or the entire view.
  - [Command Palette](https://github.com/RuliaReader/Rulia/issues/239) 
- - Includes a [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
+ - [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
+ - [AI Translation](https://github.com/RuliaReader/Rulia/wiki/AI-Translation)
 
 ## Documents
 
