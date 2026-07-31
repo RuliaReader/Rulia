@@ -33,7 +33,7 @@ Please visit [here](https://github.com/RuliaReader/Rulia/wiki) for the documenta
 
 ## Feedback
 
-If you have any question or suggestion, feel free to leave an issue 😃
+If you have any question or suggestion, feel free to file issues.
 
 ## Roadmap
 
