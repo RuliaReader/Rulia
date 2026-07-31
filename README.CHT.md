@@ -46,10 +46,11 @@
 
 ## 截圖
 
-![rulia](/images/chs-01.jpg)
-![rulia](/images/chs-02.jpg)
-![rulia](/images/chs-03.jpg)
-![rulia](/images/chs-04.jpg)
+![main](/images/screenshot-01.png)
+![bookshelf](/images/screenshot-02.png)
+![reader](/images/screenshot-03.png)
+![ai-translation](/images/screenshot-04.png)
+![command-panel](/images/screenshot-05.png)
 
 ## 版權
 

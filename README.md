@@ -50,10 +50,11 @@ You can read changelog [here](https://github.com/LancerComet/RuliaReader/blob/ma
 
 ## Screenshots
 
-![rulia](/images/en-01.jpg)
-![rulia](/images/en-02.jpg)
-![rulia](/images/en-03.jpg)
-![rulia](/images/en-04.jpg)
+![main](/images/screenshot-01.png)
+![bookshelf](/images/screenshot-02.png)
+![reader](/images/screenshot-03.png)
+![ai-translation](/images/screenshot-04.png)
+![command-panel](/images/screenshot-05.png)
 
 ## Copyright
 
