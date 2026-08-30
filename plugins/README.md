@@ -17,6 +17,7 @@ Feel free to give them a shot. Just download the plugin files from the **Release
  - [Komga](https://github.com/RuliaReader/plugin.komga): Read comics from your [Komga](https://komga.org/) server.
  - [Kuaikan Manga](https://github.com/shiluo34/plugin.kuaikan-manga): Read comics directly from [Kuaikan](https://www.kuaikanmanhua.com/).
  - [MangaDex](https://github.com/RuliaReader/plugin.MangaDex): A plugin for [MangaDex](https://mangadex.org).
+ - [Talebook](https://github.com/hehetoshang/plugin.talebook): Connect to a self-hosted [Talebook](https://github.com/talebook/talebook) comic library. 
  - [Zaimanhua](https://github.com/RuliaReader/plugin.ZaiManHua): Zaimanhua Plugin.
 
 ## Plugin Development
