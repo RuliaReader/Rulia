@@ -13,23 +13,23 @@ Get it from the Microsoft Store:
 ## Highlights
 
  - Supports common formats: CBR, CBZ, ZIP, RAR, 7Z, PDF, EPUB, MOBI, AZW3
- - Supports various image formats, including WebP and [AVIF](https://github.com/RuliaReader/Rulia/wiki/AVIF-Support)
- - Offers 3 reading modes for diverse needs: Horizon (Flip), Infinity (Scroll), [BookReader](https://github.com/RuliaReader/Rulia/issues/214) (real-book-like)
+ - Supports various image formats, including WebP and [AVIF](https://docs.rulia.net/docs/format)
+ - Offers 3 reading modes for diverse needs: Horizon (Flip), Infinity (Scroll), [BookReader](https://docs.rulia.net/docs/reader/reading-modes) (real-book-like)
  - Removes Moiré patterns from images
  - Automatically trims blank borders from manga images
- - Utilizes [super-resolution](https://github.com/RuliaReader/Rulia/wiki/Super%E2%80%90resolution-for-manga-images) to upscale and enhance low-resolution images
+ - Utilizes [super-resolution](https://docs.rulia.net/docs/reader/super-resolution) to upscale and enhance low-resolution images
  - Supports opening encrypted archives and remembers passwords
  - Features a modern user interface optimized for touch
  - Creates multiple profiles to organize different manga collections
  - Supports page turning with Surface Pen and Surface Dial
  - Zoom at will: Magnify a specific image or the entire view.
  - [Command Palette](https://github.com/RuliaReader/Rulia/issues/239) 
- - [Plugin system](https://github.com/RuliaReader/Rulia/wiki/Plugin-system) for extended functionality
- - [AI Translation](https://github.com/RuliaReader/Rulia/wiki/AI-Translation)
+ - [Plugin system](https://docs.rulia.net/docs/plugins) for extended functionality
+ - [AI Translation](https://docs.rulia.net/docs/reader/ai-translation)
 
 ## Documents
 
-Please visit [here](https://github.com/RuliaReader/Rulia/wiki) for the documentation.
+Please visit [here](https://docs.rulia.net) for the documentation.
 
 ## Feedback
 
